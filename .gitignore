@@ -2,4 +2,6 @@
 *.log
 .DS_Store
 node_modules/
-
+setupenv.sh
+.last_modified_timestamp
+bun.lockb
