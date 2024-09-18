@@ -343,7 +343,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       // _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
@@ -380,7 +380,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       // _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
@@ -417,7 +417,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       // _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
@@ -450,7 +450,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       // _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
@@ -479,7 +479,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       // _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
@@ -513,9 +513,10 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
     return `<h1 class="adhs-install-app">` + "Install " + appName + `</h1>`;
   }
 
-  function _genAppNameHeader() {
-    return `<div class="adhs-app-name">` + appName + `</div>`;
-  }
+  // function _genAppNameHeader() {
+  //   return "";
+  //   // return `<div class="adhs-app-name">` + appName + `</div>`;
+  // }
 
   function _genAppUrlHeader() {
     return `<div class="adhs-app-url">` + _getAppDisplayUrl() + `</div>`;
@@ -610,7 +611,7 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
       _genLogo() +
       _genModalStart() +
       _genInstallAppHeader() +
-      _genAppNameHeader() +
+      // _genAppNameHeader() +
       _genAppUrlHeader() +
       _genListStart() +
       _genListItem(
