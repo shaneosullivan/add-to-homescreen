@@ -231,7 +231,7 @@
   .adhs-list-button
   .adhs-list-button-image-only {
   position: relative;
-  top: 3px;
+  top: 0px;
   left: 0px;
 }
 
@@ -582,7 +582,7 @@
 }
 
 .adhs-container.adhs-desktop .adhs-logo {
-  top: 20px;
+  top: -20px;
 }
 
 .adhs-container.adhs-desktop .adhs-modal {
@@ -610,7 +610,7 @@
 
 .adhs-container.adhs-mobile .adhs-modal .adhs-install-app {
   font-size: 23px;
-  margin: -2px 0px 0px 0px;
+  margin: -2px 0px 8px 0px;
 }
 
 .adhs-container .adhs-modal .adhs-app-name {

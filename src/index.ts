@@ -243,15 +243,15 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
     );
   }
 
-  function _genTitleWithMessage(message: string) {
-    return (
-      `
-      <div class="adhs-title">` +
-      message +
-      `</div>
-      `
-    );
-  }
+  // function _genTitleWithMessage(message: string) {
+  //   return (
+  //     `
+  //     <div class="adhs-title">` +
+  //     message +
+  //     `</div>
+  //     `
+  //   );
+  // }
 
   function _genModalStart() {
     return `<div class="` + _modalClassName() + `">`;
@@ -658,11 +658,11 @@ function AddToHomeScreen(config: AddToHomeScreenConfig): AddToHomeScreenType {
     }, 50);
   }
 
-  function clearModalDisplayCount() {
-    if (_isEnabledModalDisplayCount()) {
-      win.localStorage.removeItem(_getModalDisplayCountKey());
-    }
-  }
+  // function clearModalDisplayCount() {
+  //   if (_isEnabledModalDisplayCount()) {
+  //     win.localStorage.removeItem(_getModalDisplayCountKey());
+  //   }
+  // }
 
   function _isEnabledModalDisplayCount(): boolean {
     return (
